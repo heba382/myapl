@@ -1,25 +1,46 @@
-body {
+ body {
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 50px;
-  background: #f4f4f9;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #fff;
+  padding: 40px;
 }
 
-h1 {
-  color: #4CAF50;
+.card {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 16px;
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 18px;
-  margin-top: 20px;
+  padding: 10px 15px;
   border: none;
   border-radius: 8px;
-  background: #4CAF50;
+  background: #ff9800;
   color: white;
+  font-size: 16px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #45a049;
+  background: #e68900;
+}
+
+.weather-info {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.icon {
+  font-size: 50px;
+  margin: 10px 0;
 }

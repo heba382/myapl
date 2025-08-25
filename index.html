@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>مشروعي البسيط</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App (Demo)</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>👋 أهلاً بيك في أول مشروع فرونت بسيط</h1>
-<p>ده مشروع HTML + CSS + JS بسيط جدًا عشان نجربه على GitHub و Vercel.</p>
-<button onclick="sayHello()">اضغط هنا</button>
+  <h1>🌦️ Weather App </h1>
+  <div class="card">
+    <input type="text" id="city" placeholder="اكتب اسم المدينة">
+    <button onclick="getWeather()">ابحث</button>
+    <div class="weather-info" id="weather"></div>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
